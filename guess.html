@@ -1,26 +1,38 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <title>Number Guesser</title>
     </head>
+
 
 <style>
 
-.pink {
-    color: pink;
-}
 
 </style>
 
+
 <body>
-<h2 class="text">some text here</h2>
+
+<div class="container">
+    <h1>Number Guesser</h1>
+    <div id="game">
+        <p>Guess a number between <span class="min-num">1</span> and <span class="max-num">10</span></p>
+        <input type="number" id="guess-input" placeholder="Enter your guess...">
+        <input type="submit" value="Submit" id="guess-value">
+        <p class="message"></p>
+    </div>
+</div>
 
 
 
 
+<!-- script tags js -->
 <script>
-$('.text').addClass('pink');
+
 
 </script>
+
 
 </body>
 </html>
